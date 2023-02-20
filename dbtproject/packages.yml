@@ -1,0 +1,6 @@
+#packages will be loaded from "dbt deps" command
+#reference: https://docs.getdbt.com/docs/build/packages
+
+packages:
+    - git: "https://github.com/dbt-labs/dbt-utils.git"
+      revision: 0.9.6

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: google_ads
+    database: fivetran
+    tables:
+      - name: ad_history
+      - name: ad_stats
